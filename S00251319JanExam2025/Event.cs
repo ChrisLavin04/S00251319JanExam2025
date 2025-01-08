@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace S00251319JanExam2025
 {
-    internal class Event :IComparable
+    public enum EventType { Music, Comedy, Theatre }
+    public class Event :IComparable
     {
         //Event Class Properties
         public string Name { get; set; }
         public DateTime EventDate { get; set; }
         List<Ticket> Tickets = new List<Ticket>();
-        public enum EventType { Music, Comedy, Theatre }
+        public EventType TypeOfEvent { get; set; }
 
         //IComparable function to sort Event list
         public int CompareTo(object obj)

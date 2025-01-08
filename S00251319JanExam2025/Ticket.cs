@@ -12,11 +12,16 @@ namespace S00251319JanExam2025
         public string Name { get; set; }
         public decimal Price { get; set; }
         public int AvailableTickets { get; set; }
+
+        public class VIPTicket
+        {
+            public string Name { get; set; }
+            public decimal Price { get; set; }
+            public int AvailableTickets { get; set; }
+            //VIPTicket class properties
+            public string AdditionalExtras { get; set; }
+            public decimal AdditionalCost { get; set; }
+        }
     }
-    public class VIPTicket
-    {
-        //VIPTicket class properties
-        public string AdditionalExtras { get; set; }
-        public decimal AdditionalCost { get; set; }
-    }
+
 }
