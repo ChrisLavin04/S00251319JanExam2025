@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:S00251319JanExam2025"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
         <Label Content="Events" HorizontalAlignment="Left" Height="27" Margin="76,40,0,0" VerticalAlignment="Top" Width="84"/>
         <Label Content="Tickets" HorizontalAlignment="Left" Height="27" Margin="512,40,0,0" VerticalAlignment="Top" Width="74"/>

@@ -1,5 +1,6 @@
 ﻿//https://github.com/ChrisLavin04/S00251319JanExam2025.git
 
+using System.Diagnostics;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -21,6 +22,12 @@ namespace S00251319JanExam2025
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            //Create 2 Event objects
+            Event e1 = new Event("Oasis Croke Park", new DateTime(2025, 06, 20), EventType.Music);
         }
     }
 }
